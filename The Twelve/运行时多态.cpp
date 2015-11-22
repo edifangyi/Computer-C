@@ -13,7 +13,7 @@ public:
 class dog:public pet
 {
 	void speak(){cout<<"wang!wang!"<<endl;}
-}
+};
 
 void main()
 {
