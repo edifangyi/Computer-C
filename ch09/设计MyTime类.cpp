@@ -46,7 +46,7 @@ void MyTime::SetTime(int hh, int mm, int ss)
 void MyTime::print_12()
 {
 	int hh = (hour == 0 || hour == 12) ? 0 : hour % 12;
-	cout << ((hour < 10) ? "0" : "") << hh << ":"
+	cout << ((hh < 10) ? "0" : "") << hh << ":"
 		<<((minute < 10) ? "0" : "") << minute << ":"
 		<< ((second < 10) ? "0" : "") << second
 		<< (hour < 12 ? " AM" : " PM");
