@@ -3,7 +3,7 @@ using namespace std;
 class pet
 {
 public:
-	virtual void speak(){cout <<"How does a pet speal?"<<endl;}
+	virtual void speak(){cout <<"How does a pet speak?"<<endl;}
 };
 class cat:public pet
 {

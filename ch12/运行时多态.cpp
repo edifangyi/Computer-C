@@ -23,6 +23,6 @@ void main()
 	int x;				//根据用户输入将猫或狗对象地址赋给P指针
 	cin>>x;				//
 	if(x==1) p=&cat1;	//输出1，执行猫对象地址付给p
-	if(x==2) p=%dog1;
+	if(x==2) p=&dog1;
 	p->speak();
 }
