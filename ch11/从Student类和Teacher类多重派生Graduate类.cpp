@@ -3,12 +3,12 @@
 已知基类Person定义如下：
 class Person
 {
-char Name[10];
-int Sex;
-int Age;
+  char Name[10];
+  int Sex;
+  int Age;
 public:
-void Register(char *name,int age,char sex);
-void ShowMe();
+  void Register(char *name,int age,char sex);
+  void ShowMe();
 };
 请通过继承的方法建立两个派生类，其中
 派生类Teacher：
